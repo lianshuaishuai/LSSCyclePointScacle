@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAF4111A219D0B4000072DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF41119219D0B4000072DB0 /* AppDelegate.m */; };
+		EAF4111D219D0B4000072DB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF4111C219D0B4000072DB0 /* ViewController.m */; };
+		EAF41120219D0B4000072DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF4111E219D0B4000072DB0 /* Main.storyboard */; };
+		EAF41122219D0B4000072DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF41121219D0B4000072DB0 /* Assets.xcassets */; };
+		EAF41125219D0B4000072DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF41123219D0B4000072DB0 /* LaunchScreen.storyboard */; };
+		EAF41128219D0B4000072DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF41127219D0B4000072DB0 /* main.m */; };
+		EAF41132219D0B4000072DB0 /* LSSCyclePointScacleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF41131219D0B4000072DB0 /* LSSCyclePointScacleTests.m */; };
+		EAF4113D219D0B4100072DB0 /* LSSCyclePointScacleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF4113C219D0B4100072DB0 /* LSSCyclePointScacleUITests.m */; };
+		EAF4114D219D3A2600072DB0 /* LSSCycleAanimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF4114C219D3A2600072DB0 /* LSSCycleAanimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF4112E219D0B4000072DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF4110D219D0B4000072DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF41114219D0B4000072DB0;
+			remoteInfo = LSSCyclePointScacle;
+		};
+		EAF41139219D0B4100072DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF4110D219D0B4000072DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF41114219D0B4000072DB0;
+			remoteInfo = LSSCyclePointScacle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAF41115219D0B4000072DB0 /* LSSCyclePointScacle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSSCyclePointScacle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF41118219D0B4000072DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAF41119219D0B4000072DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAF4111B219D0B4000072DB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAF4111C219D0B4000072DB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAF4111F219D0B4000072DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAF41121219D0B4000072DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF41124219D0B4000072DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAF41126219D0B4000072DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF41127219D0B4000072DB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAF4112D219D0B4000072DB0 /* LSSCyclePointScacleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSSCyclePointScacleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF41131219D0B4000072DB0 /* LSSCyclePointScacleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSSCyclePointScacleTests.m; sourceTree = "<group>"; };
+		EAF41133219D0B4000072DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF41138219D0B4000072DB0 /* LSSCyclePointScacleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSSCyclePointScacleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF4113C219D0B4100072DB0 /* LSSCyclePointScacleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSSCyclePointScacleUITests.m; sourceTree = "<group>"; };
+		EAF4113E219D0B4100072DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF4114B219D3A2600072DB0 /* LSSCycleAanimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSSCycleAanimation.h; sourceTree = "<group>"; };
+		EAF4114C219D3A2600072DB0 /* LSSCycleAanimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSSCycleAanimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF41112219D0B4000072DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF4112A219D0B4000072DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF41135219D0B4000072DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAF4110C219D0B4000072DB0 = {
+			isa = PBXGroup;
+			children = (
+				EAF41117219D0B4000072DB0 /* LSSCyclePointScacle */,
+				EAF41130219D0B4000072DB0 /* LSSCyclePointScacleTests */,
+				EAF4113B219D0B4100072DB0 /* LSSCyclePointScacleUITests */,
+				EAF41116219D0B4000072DB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF41116219D0B4000072DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF41115219D0B4000072DB0 /* LSSCyclePointScacle.app */,
+				EAF4112D219D0B4000072DB0 /* LSSCyclePointScacleTests.xctest */,
+				EAF41138219D0B4000072DB0 /* LSSCyclePointScacleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF41117219D0B4000072DB0 /* LSSCyclePointScacle */ = {
+			isa = PBXGroup;
+			children = (
+				EAF41118219D0B4000072DB0 /* AppDelegate.h */,
+				EAF41119219D0B4000072DB0 /* AppDelegate.m */,
+				EAF4111B219D0B4000072DB0 /* ViewController.h */,
+				EAF4111C219D0B4000072DB0 /* ViewController.m */,
+				EAF4114B219D3A2600072DB0 /* LSSCycleAanimation.h */,
+				EAF4114C219D3A2600072DB0 /* LSSCycleAanimation.m */,
+				EAF4111E219D0B4000072DB0 /* Main.storyboard */,
+				EAF41121219D0B4000072DB0 /* Assets.xcassets */,
+				EAF41123219D0B4000072DB0 /* LaunchScreen.storyboard */,
+				EAF41126219D0B4000072DB0 /* Info.plist */,
+				EAF41127219D0B4000072DB0 /* main.m */,
+			);
+			path = LSSCyclePointScacle;
+			sourceTree = "<group>";
+		};
+		EAF41130219D0B4000072DB0 /* LSSCyclePointScacleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF41131219D0B4000072DB0 /* LSSCyclePointScacleTests.m */,
+				EAF41133219D0B4000072DB0 /* Info.plist */,
+			);
+			path = LSSCyclePointScacleTests;
+			sourceTree = "<group>";
+		};
+		EAF4113B219D0B4100072DB0 /* LSSCyclePointScacleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF4113C219D0B4100072DB0 /* LSSCyclePointScacleUITests.m */,
+				EAF4113E219D0B4100072DB0 /* Info.plist */,
+			);
+			path = LSSCyclePointScacleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF41114219D0B4000072DB0 /* LSSCyclePointScacle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF41141219D0B4100072DB0 /* Build configuration list for PBXNativeTarget "LSSCyclePointScacle" */;
+			buildPhases = (
+				EAF41111219D0B4000072DB0 /* Sources */,
+				EAF41112219D0B4000072DB0 /* Frameworks */,
+				EAF41113219D0B4000072DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSSCyclePointScacle;
+			productName = LSSCyclePointScacle;
+			productReference = EAF41115219D0B4000072DB0 /* LSSCyclePointScacle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF4112C219D0B4000072DB0 /* LSSCyclePointScacleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF41144219D0B4100072DB0 /* Build configuration list for PBXNativeTarget "LSSCyclePointScacleTests" */;
+			buildPhases = (
+				EAF41129219D0B4000072DB0 /* Sources */,
+				EAF4112A219D0B4000072DB0 /* Frameworks */,
+				EAF4112B219D0B4000072DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF4112F219D0B4000072DB0 /* PBXTargetDependency */,
+			);
+			name = LSSCyclePointScacleTests;
+			productName = LSSCyclePointScacleTests;
+			productReference = EAF4112D219D0B4000072DB0 /* LSSCyclePointScacleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAF41137219D0B4000072DB0 /* LSSCyclePointScacleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF41147219D0B4100072DB0 /* Build configuration list for PBXNativeTarget "LSSCyclePointScacleUITests" */;
+			buildPhases = (
+				EAF41134219D0B4000072DB0 /* Sources */,
+				EAF41135219D0B4000072DB0 /* Frameworks */,
+				EAF41136219D0B4000072DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF4113A219D0B4100072DB0 /* PBXTargetDependency */,
+			);
+			name = LSSCyclePointScacleUITests;
+			productName = LSSCyclePointScacleUITests;
+			productReference = EAF41138219D0B4000072DB0 /* LSSCyclePointScacleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF4110D219D0B4000072DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "连帅帅";
+				TargetAttributes = {
+					EAF41114219D0B4000072DB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EAF4112C219D0B4000072DB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAF41114219D0B4000072DB0;
+					};
+					EAF41137219D0B4000072DB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAF41114219D0B4000072DB0;
+					};
+				};
+			};
+			buildConfigurationList = EAF41110219D0B4000072DB0 /* Build configuration list for PBXProject "LSSCyclePointScacle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF4110C219D0B4000072DB0;
+			productRefGroup = EAF41116219D0B4000072DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF41114219D0B4000072DB0 /* LSSCyclePointScacle */,
+				EAF4112C219D0B4000072DB0 /* LSSCyclePointScacleTests */,
+				EAF41137219D0B4000072DB0 /* LSSCyclePointScacleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF41113219D0B4000072DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF41125219D0B4000072DB0 /* LaunchScreen.storyboard in Resources */,
+				EAF41122219D0B4000072DB0 /* Assets.xcassets in Resources */,
+				EAF41120219D0B4000072DB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF4112B219D0B4000072DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF41136219D0B4000072DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF41111219D0B4000072DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF4111D219D0B4000072DB0 /* ViewController.m in Sources */,
+				EAF41128219D0B4000072DB0 /* main.m in Sources */,
+				EAF4114D219D3A2600072DB0 /* LSSCycleAanimation.m in Sources */,
+				EAF4111A219D0B4000072DB0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF41129219D0B4000072DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF41132219D0B4000072DB0 /* LSSCyclePointScacleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF41134219D0B4000072DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF4113D219D0B4100072DB0 /* LSSCyclePointScacleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF4112F219D0B4000072DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF41114219D0B4000072DB0 /* LSSCyclePointScacle */;
+			targetProxy = EAF4112E219D0B4000072DB0 /* PBXContainerItemProxy */;
+		};
+		EAF4113A219D0B4100072DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF41114219D0B4000072DB0 /* LSSCyclePointScacle */;
+			targetProxy = EAF41139219D0B4100072DB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAF4111E219D0B4000072DB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF4111F219D0B4000072DB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF41123219D0B4000072DB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF41124219D0B4000072DB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAF4113F219D0B4100072DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAF41140219D0B4100072DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF41142219D0B4100072DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSCyclePointScacle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSCyclePointScacle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF41143219D0B4100072DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSCyclePointScacle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSCyclePointScacle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAF41145219D0B4100072DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSCyclePointScacleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSCyclePointScacleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSSCyclePointScacle.app/LSSCyclePointScacle";
+			};
+			name = Debug;
+		};
+		EAF41146219D0B4100072DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSCyclePointScacleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSCyclePointScacleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSSCyclePointScacle.app/LSSCyclePointScacle";
+			};
+			name = Release;
+		};
+		EAF41148219D0B4100072DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSCyclePointScacleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSCyclePointScacleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSSCyclePointScacle;
+			};
+			name = Debug;
+		};
+		EAF41149219D0B4100072DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSCyclePointScacleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSCyclePointScacleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSSCyclePointScacle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF41110219D0B4000072DB0 /* Build configuration list for PBXProject "LSSCyclePointScacle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF4113F219D0B4100072DB0 /* Debug */,
+				EAF41140219D0B4100072DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF41141219D0B4100072DB0 /* Build configuration list for PBXNativeTarget "LSSCyclePointScacle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF41142219D0B4100072DB0 /* Debug */,
+				EAF41143219D0B4100072DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF41144219D0B4100072DB0 /* Build configuration list for PBXNativeTarget "LSSCyclePointScacleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF41145219D0B4100072DB0 /* Debug */,
+				EAF41146219D0B4100072DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF41147219D0B4100072DB0 /* Build configuration list for PBXNativeTarget "LSSCyclePointScacleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF41148219D0B4100072DB0 /* Debug */,
+				EAF41149219D0B4100072DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF4110D219D0B4000072DB0 /* Project object */;
+}
